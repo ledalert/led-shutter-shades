@@ -199,4 +199,8 @@ void set_all(int r, int g, int b) {
 	make
 	stm32flash /dev/ttyUSB0 -b 921600 -B cs.dtr -R cs.rts -w build/shutter_shades.bin
 
+	or for a one liner
+
+	make && stm32flash /dev/ttyUSB0 -b 921600 -B cs.dtr -R cs.rts -w build/shutter_shades.bin
+
  */
