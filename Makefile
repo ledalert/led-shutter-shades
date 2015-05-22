@@ -1,7 +1,7 @@
-NAME = ws2812_blink
+NAME = shutter_shades
 BUILD_DIR = build/
 
-SOURCES = ws2812_blink.c
+SOURCES = shutter_shades.c
 
 OBJECTS = $(SOURCES:%.c=$(BUILD_DIR)%.o)
 
